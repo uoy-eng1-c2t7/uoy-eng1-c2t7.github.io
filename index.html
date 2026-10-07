@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"?>
+        <title>Goose Patrol UoY ENG1 C2T7</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+            :root {
+                --white: #f8f9fa;
+                --orange: #f97316;
+                --dark-text: #1f2937;
+                --gray: #e5e7eb;
+            }
+
+            body {
+                font-family: 'Inter', sans-serif;
+                color: var(--darl-text);
+                background-color: var(--white);
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: var(--dark-text);
+                color: var(--white);
+                padding: 2rem;
+                text-align: center;
+                border-bottom: 5px solid var(--orange);
+            }
+
+            nav {
+                background-color: var(--gray);
+                padding: 1rem;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 0 15px;
+                color: var(--dark-text);
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            nav a:hover {
+                color: var(--orange);
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 2rem auto;
+                padding: 0 2rem;
+            }
+
+            .card {
+                background: white;
+                border: 1px solid var(--gray);
+                border-radius: 8px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0, 0.05);
+            }
+
+            h2 {
+                border-bottom: 2px solid var(--orange);
+                padding-bottom: 0.5rem;
+                margin-top: 0;
+            }
+
+            .btn {
+                display: inline-block;
+                background-color: var(--orange);
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+
+            .btn:hover {
+                background-color: #ea580c;
+            }
+
+            ul {
+                list-style-type: square;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Goose Patrol</h1>
+            <p>Cohort 2, Team 7 ENG1 Assessment 1</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Deliverables & Code</a>
+            <a href="#">Project Planning</a>
+            <a href="#">Another Page?</a>
+        </nav>
+
+        <div class="container">
+
+            <!-- Code and Game links-->
+            <div id="code" class="card">
+                <h2>Repository & Game Download</h2>
+                <p>Our Github and the latest build of Goose Patrol.</p>
+                <a href="https://github.com/uoy-eng1-c2t7/GoosePatrol" target="_blank" class="btn">View Github Repo</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn">Download Executable JAR</a>
+            </div>
+
+            <!-- PDF Deliverables -->
+            <div id="delvierables" class="card">
+                <h2>Assessment 1 Deliverables</h2>
+                <p>Download the deliverable PDFs.</p>
+                <ul>
+                    <li><a href="#">Requiremnets (Req1.pdf)</a></li>
+                    <li><a href="#">Architecture (Arch1.pdf)</a></li>
+                    <li><a href="#">Method Selection & Planning (Plan1.pdf)</a></li>
+                    <li><a href="#">Risk Assessment & Mitigation (Risk1.pdf)</a></li>
+                    <li><a href="#">Implementation Report (Impl1.pdf)</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>
