@@ -80,3 +80,12 @@ h2 {
 ul {
     list-style-type: square;
 }
+
+details summary {
+    font-weight: bold; 
+    cursor: pointer; 
+    padding: 10px; 
+    background-color: var(--gray); 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
