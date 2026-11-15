@@ -11,36 +11,50 @@
 <body>
     <header>
         <h1>Goose Patrol</h1>
-        <p>Cohort 2, Team 7 ENG1 Assessment 1</p>
+        <p>Cohort 2, Team 7 &middot; ENG1 Assessment 1</p>
     </header>
 
     <nav>
-        <a href="index.html">Deliverables & Code</a>
+        <a href="index.html" class="active">Deliverables &amp; Code</a>
+        <a href="architecture.html">Architecture</a>
         <a href="planning.html">Project Planning</a>
     </nav>
 
     <div class="container">
 
         <div id="code" class="card">
-            <h2>Repository & Game Download</h2>
-            <p>Our Github and the latest build of Goose Patrol.</p>
-            <a href="https://github.com/uoy-eng1-c2t7/GoosePatrol" target="_blank" class="btn">View Github Repo</a>
-            <a href="https://drive.google.com/file/d/1ntfuJJYXJJTh1bd4706TDkwfi9faqWWJ" target="_blank"
-                class="btn">Download Executable JAR</a>
+            <h2>Play the Game</h2>
+            <p>Download the latest build of Goose Patrol, or browse the source code.</p>
+            <div class="btn-row">
+                <a href="https://github.com/uoy-eng1-c2t7/GoosePatrol/releases/latest/download/GoosePatrol-1.0.0.jar"
+                    class="btn">Download Game (JAR, v1.0.0)</a>
+                <a href="https://github.com/uoy-eng1-c2t7/GoosePatrol" target="_blank"
+                    class="btn btn-secondary">GitHub Repository</a>
+                <a href="https://github.com/uoy-eng1-c2t7/GoosePatrol/releases" target="_blank"
+                    class="btn btn-secondary">All Releases</a>
+            </div>
+            <p class="note">Requires Java 17 or later. Run with <code>java -jar GoosePatrol-1.0.0.jar</code></p>
         </div>
 
         <div id="deliverables" class="card">
             <h2>Assessment 1 Deliverables</h2>
-            <p>Click to open each deliverable as a PDF.</p>
-            <ul>
-                <li><a href="files/deliverables/Req1.pdf" target="_blank">Requirements (Req1.pdf)</a></li>
-                <li><a href="files/deliverables/Arch1.pdf" target="_blank">Architecture (Arch1.pdf)</a></li>
-                <li><a href="files/deliverables/Plan1.pdf" target="_blank">Method Selection & Planning (Plan1.pdf)</a>
-                </li>
-                <li><a href="files/deliverables/Risk1.pdf" target="_blank">Risk Assessment & Mitigation (Risk1.pdf)</a>
-                </li>
-                <li><a href="files/deliverables/Impl1.pdf" target="_blank">Implementation Report (Impl1.pdf)</a></li>
-            </ul>
+            <p>Each deliverable opens as a PDF in a new tab.</p>
+            <div class="doc-grid">
+                <a href="files/deliverables/Req1.pdf" target="_blank">Requirements<span>Req1.pdf</span></a>
+                <a href="files/deliverables/Arch1.pdf" target="_blank">Architecture<span>Arch1.pdf</span></a>
+                <a href="files/deliverables/Plan1.pdf" target="_blank">Method Selection &amp; Planning<span>Plan1.pdf</span></a>
+                <a href="files/deliverables/Risk1.pdf" target="_blank">Risk Assessment &amp; Mitigation<span>Risk1.pdf</span></a>
+                <a href="files/deliverables/Impl1.pdf" target="_blank">Implementation<span>Impl1.pdf</span></a>
+            </div>
+        </div>
+
+        <div id="supporting" class="card">
+            <h2>Supporting Material</h2>
+            <div class="btn-row">
+                <a href="architecture.html" class="btn btn-secondary">Full-size Architecture Diagrams</a>
+                <a href="planning.html#gantt" class="btn btn-secondary">Gantt Charts</a>
+                <a href="planning.html#snapshots" class="btn btn-secondary">Weekly Snapshots</a>
+            </div>
         </div>
     </div>
 
